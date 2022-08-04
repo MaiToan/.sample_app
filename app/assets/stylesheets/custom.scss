@@ -1,4 +1,5 @@
 @import 'color';
+
 body {
   padding-top: 60px;
 }
@@ -102,7 +103,6 @@ img {
   width: 100px;
 }
 /* mixins, variables, etc. */
-
 @mixin box_sizing {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -160,6 +160,7 @@ input, textarea, select, .uneditable-input {
   border: 1px solid $grey;
   width: 100%;
   margin-bottom: 150px;
+
   @include box_sizing;
 }
 
@@ -177,4 +178,5 @@ input {
 .btn
 {
   margin-top : 10px ; 
+
 }

@@ -7,6 +7,7 @@ class UsersController < ApplicationController
     redirect_to signup_path
   end
   
+
   def new
     @user = User.new
   end
