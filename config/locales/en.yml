@@ -1,13 +1,14 @@
 en:
   hello: "Hello world"
-  english: "English"
-  vietnamese: "Vietnamese"
   layouts:
     application:
       base_title: "Program teach how to using Rails"
-  shared:
+      profile: "Profile"
+      setting: "Settings"
+      log_out: "Log out"
+      log_in: "Log in"
     header:
-      title: "Sample App"
+      title: "Sample Apps"
       home: "Home"
       help: "Help"
       contact: "Contact"
@@ -18,6 +19,7 @@ en:
       log_in: "Log in"
       english: "English"
       vietnamese: "Vietnamese"
+
     footer:
       info: "Ruby on Rails Tutorial"
       news: "News"
@@ -72,4 +74,5 @@ en:
       log_in: "Log in"
     create:
       invalid_email_password: "Invalid email password combination!"
+
 

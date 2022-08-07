@@ -1,11 +1,8 @@
 vi:
   hello: "Chào thế giới"
-  english: "Tiếng Anh"
-  vietnamese: "Tiếng Việt"
   layouts:
     application:
       base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
-  shared:
     header:
       title: "Sample App"
       home: "Trang chủ"
@@ -18,6 +15,7 @@ vi:
       log_in: "Đăng nhập"
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+
     footer:
       info: "Hướng dẫn Ruby on Rails"
       about: "Về chúng tôi"
@@ -71,4 +69,5 @@ vi:
       log_in: "Đăng nhập"
     create:
       invalid_email_password: "Email, mật khẩu không hợp lệ!"
+
 
