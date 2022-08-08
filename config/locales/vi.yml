@@ -15,7 +15,6 @@ vi:
       log_in: "Đăng nhập"
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
-
     footer:
       info: "Hướng dẫn Ruby on Rails"
       about: "Về chúng tôi"
