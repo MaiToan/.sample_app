@@ -2,6 +2,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
   end
+
   def new
     @user = User.new
   end
@@ -16,7 +17,6 @@ class UsersController < ApplicationController
       flash.now[:danger] = t ".alert_err_create"
     end
   end
-
   private
 
   def user_params
