@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   attr_accessor :remember_token
+  
   USER_ATTR = %i(name email password password_confirmation).freeze
   before_save :downcase_email
 
@@ -46,6 +47,6 @@ class User < ApplicationRecord
   private
 
   def downcase_email
-    self.email.downcase!
+    email.downcase!
   end
  end
