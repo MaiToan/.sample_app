@@ -14,7 +14,7 @@ class User < ApplicationRecord
 
   validates :password, presence: true,
    length: {minimum: Settings.user.password_min},
-   if: :password
+   allow_nil: true
 
   has_secure_password
   class << self
@@ -39,7 +39,6 @@ class User < ApplicationRecord
 
   def authenticated? remember_token
     return false unless remember_token
-
     BCrypt::Password.new(remember_digest).is_password? remember_token
   end
 
