@@ -1,4 +1,4 @@
-<% provide :title, t(".log_in") %>
+<% provide :title, t(".login") %>
  <h1><%= t(".login")%></h1>
  <div class="row">
    <div class="col-md-6 col-md-offset-3">
@@ -11,7 +11,7 @@
           <%= f.check_box :remember %>
           <span><%= t ".remember_on" %></span>
         <% end %>
-        <%= f.submit t(".log_in"), class: "btn btn-primary" %>
+        <%= f.submit t(".login"), class: "btn btn-primary" %>
       <% end %>
     <p><%= t (".new_user") %> <%= link_to t(".sign_up_now"), signup_path %></p>
 

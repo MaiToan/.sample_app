@@ -12,6 +12,7 @@ gem "mysql2", "~> 0.5.3"
 gem "net-imap", require: false
 gem "net-pop", require: false
 gem "net-smtp", require: false
+gem "pagy"
 gem "puma", "~> 4.1"
 gem "rails", "~> 6.0.5", ">= 6.0.5.1"
 gem "rails-i18n"
