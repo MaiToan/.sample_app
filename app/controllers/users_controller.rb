@@ -6,7 +6,6 @@ class UsersController < ApplicationController
     flash[:danger] = t ".alert_not_found"
     redirect_to signup_path
   end
-  
 
   def new
     @user = User.new
