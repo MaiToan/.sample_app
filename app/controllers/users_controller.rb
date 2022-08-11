@@ -1,7 +1,12 @@
 class UsersController < ApplicationController
   def show
-    @user = User.find(params[:id])
+    @user = User.find_by params[:id]
+    return if @user
+
+    flash[:danger] = t ".alert_not_found"
+    redirect_to signup_path
   end
+  
   def new
     @user = User.new
   end
