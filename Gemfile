@@ -7,6 +7,7 @@ gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.4.2", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "config"
+gem "figaro"
 gem "jbuilder", "~> 2.7"
 gem "mysql2", "~> 0.5.3"
 gem "net-imap", require: false
@@ -20,7 +21,7 @@ gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 4.0"
 group :development, :test do
-  gem "pry", "~> 0.14.0"
+gem "pry", "~> 0.14.0"
 end
 
 group :development do
