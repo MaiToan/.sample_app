@@ -21,7 +21,7 @@ gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 4.0"
 group :development, :test do
-gem "pry", "~> 0.14.0"
+  gem "pry", "~> 0.14.0"
 end
 
 group :development do
