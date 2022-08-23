@@ -26,7 +26,9 @@ class UsersController < ApplicationController
 
   def edit; end
 
-  def show; end
+  def show
+    @pagy, @users = pagy User.latest_users, items: Settings.micropost.item
+  end
 
   def update
     if @user.update user_params

@@ -8,4 +8,13 @@
       </h1>
     </section>
   </aside>
+  <div class="col-md-8">
+    <% if @microposts.any? %>
+      <h3><%= t(".micropost") + " " + @user.microposts.count.to_s %></h3>
+      <ol class="microposts">
+        <%= render @microposts %>
+      </ol>
+    <% end %>
+    <%== pagy_nav(@pagy) %>
+  </div>
 </div>
