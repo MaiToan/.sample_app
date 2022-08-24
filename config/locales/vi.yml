@@ -81,6 +81,16 @@ vi:
     destroy:
       alert_success_delete: "Người dùng đã bị xóa"
       alert_err_delete: "Xóa không thành công"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    follow:
+      follow: "Theo dõi"
+    show_follow:
+      show_follow_title: "Xem follow"
+    following:
+      following_title: "Xem Following"
+    followers:
+      follower_title: "Xem Follower"
     find_user:
       alert_not_found: "Không tìm thấy người dùng"
   shared:

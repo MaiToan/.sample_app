@@ -16,6 +16,8 @@ user:
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
   email_max: 250
   password_min: 6
+  admin:
+    user_per_page: 15
 index:
   items: 2
   gravatar_size: 80
@@ -31,3 +33,4 @@ micropost:
 image_accept: "image/jpeg,image/gif,image/png"
 image_size: 5
 gravatar_size_info: 50
+item_follow: 30

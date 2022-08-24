@@ -7,10 +7,10 @@ class Micropost < ApplicationRecord
   validates :user_id, presence: true
   validates :content, presence: true,
                       length: {maximum: Settings.micropost.max_content}
-                      validates :image, content_type: {in: Settings.micropost.content_type,
-                        message: :wrong_format},
-         size:         {less_than:
-                        Settings.micropost.file_size.megabytes,
+  validates :image, content_type: {in: Settings.micropost.content_type,
+                                   message: :wrong_format},
+         size:{less_than:
+    Settings.micropost.file_size.megabytes,
                         message: :too_big}
 
   scope :recent_post, ->{order(created_at: :desc)}
