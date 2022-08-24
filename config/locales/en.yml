@@ -80,6 +80,17 @@ en:
     destroy:
       alert_success_delete: "User deleted"
       alert_err_delete: "Delete failed"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_my: "view my profile"
+      micropost: "Micropost:"
     find_user:
       alert_not_found: "User not found"
     user:
