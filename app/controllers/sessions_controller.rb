@@ -2,7 +2,7 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    if user&.authenticate params[:session][:password]
+    if @user&.authenticate params[:session][:password]
       check_activated
     else
       flash.now[:danger] = t ".invalid_email_password"
